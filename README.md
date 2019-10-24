@@ -1,6 +1,6 @@
 # ninjabrew
-Personal Homebrew tap for infrequently downloaded apps that would otherwise get purged from the central repo.
+Personal Homebrew tap for infrequently downloaded apps that would otherwise might get purged from the central repo. See https://github.com/Homebrew/homebrew-cask/pull/63338 as an example.
 
-Also adding some [walled builds like Hedge](https://github.com/Homebrew/homebrew-cask/pull/47414) that are too lax to make the cut.
+Also includes some [walled builds like Hedge](https://github.com/Homebrew/homebrew-cask/pull/47414) that do not meet the requirements of being officially supported.
 
-See https://github.com/Homebrew/homebrew-cask/pull/63338 as an example of periodic purging.
+Refresher for creating a new Cask is available at https://github.com/Homebrew/homebrew-cask/blob/master/doc/development/adding_a_cask.md.
