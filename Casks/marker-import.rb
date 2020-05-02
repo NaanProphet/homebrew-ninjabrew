@@ -1,12 +1,11 @@
 cask 'marker-import' do
-  version '2.1.8.0'
-  sha256 'ca77d61b60a55fdd4253b351d2d7d7a8e36638428f22ca317d27797112732211'
+  version '2.2.2.0'
+  sha256 '1188cacdcde4ba1076b0c22273df71bad94558d0ff8ad5a90d591da7bbd0cd81'
 
-  # digitalrebellion.com was verified as official when first introduced to the cask
   url "https://www.digitalrebellion.com/download/markerimport?version=#{version.no_dots}"
   appcast 'http://www.digitalrebellion.com/rss/appcasts/cnmi_appcast.xml'
-  name 'Kollaborate Marker Import'
-  homepage 'https://www.kollaborate.tv/resources'
+  name 'Marker Import'
+  homepage 'https://www.digitalrebellion.com/cutnotes/'
 
   app 'Marker Import.app'
 
